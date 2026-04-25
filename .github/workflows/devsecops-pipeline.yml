@@ -3,7 +3,7 @@ name: Vulnerable DevSecOps Pipeline
 on:
   push:
     branches: [ "main" ]
-    
+  workflow_dispatch:    
 jobs:
   security-dependencies:
     runs-on: ubuntu-latest
